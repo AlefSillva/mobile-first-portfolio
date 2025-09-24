@@ -1,0 +1,19 @@
+.SkillsSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff3f;
+    padding: 25px;
+    border-radius: 3.5rem;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+.SkillsSection_title {
+    font-size: 0.8rem;
+    text-align: center;
+}

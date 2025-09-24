@@ -1,0 +1,22 @@
+.SkillCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SkillCard_title {
+    font-size: var(--fontSize-titles-sections);
+}
+
+.SkillCard_scoreContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.SkillCard_score {
+    font-weight: bold;
+    font-size: var(--fontSize-score);
+}
+
