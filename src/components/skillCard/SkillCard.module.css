@@ -7,12 +7,16 @@
 
 .SkillCard_title {
     font-size: var(--fontSize-titles-sections);
+    font-family: var(--font-primary);
+    text-align: center;
+    color: var(--title-color);
 }
 
 .SkillCard_scoreContainer{
     display: flex;
     align-items: center;
     gap: 5px;
+    color: var(--score-color);
 }
 
 .SkillCard_score {

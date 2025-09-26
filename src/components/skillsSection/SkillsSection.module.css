@@ -4,16 +4,19 @@
     align-content: center;
     justify-content: center;
     gap: 30px;
-    border: 1px solid #ffffff;
-    background-color: #ffffff3f;
+    border: 1px solid var(--border-color);
+    background-color: var(--background-color-cards);
     padding: 25px;
     border-radius: 3.5rem;
     width: 100%;
     max-width: 350px;
     height: auto;
+    box-shadow: var(--cards-shadow);
 }
 
 .SkillsSection_title {
-    font-size: 0.8rem;
+    font-size: var(--fontSize-titles-sections);
+    font-family: var(--font-primary);
     text-align: center;
+    color: var(--title-color);
 }

@@ -1,0 +1,70 @@
+.ProjectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #fff;
+    border-radius: var(--border-radius-cards);
+    padding: 16px;
+    text-align: center;
+    background-color: var(--background-color-cards);
+    width: 100%;
+    box-shadow: var(--cards-shadow);
+    color: var(--ttitle-color-project);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ProjecCard_tTitle {
+    font-size: var(--fontSize-title-cards);
+    font-family: var(--font-primary);
+    margin: 0;
+    color: var(--title-color-project);
+}
+
+.ProjectImageContainer {
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    height: 170px;
+    border-radius: 1rem;
+    perspective: 2000px;
+}
+
+.ProjectImageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.ProjectImageContainer img:hover {
+    border: 1px solid #ff9100;
+    border-radius: 1rem;
+    transform: rotateY(-20deg) rotateX(10deg) scale(1.1);
+    box-shadow: -10px 15px 20px rgba(32, 32, 32, 0.26);
+}
+
+.ProjectLink {
+    display: flex;
+    justify-content: flex-end;
+    width: 255px;
+    padding: 5px;
+}
+
+.ProjectLink a {
+    text-decoration: none;
+    font-size: var(--fontSize-text-cards);
+    font-weight: bold;
+    font-family: var(--font-primary);
+    color: var(--title-color-project);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.ProjectLink a:hover {
+    color: #fff;
+    text-shadow: 0 0 3px #000000;
+    transform: scale(1.2);
+}

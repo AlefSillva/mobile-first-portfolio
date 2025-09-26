@@ -5,11 +5,14 @@ import Testimonial from "./components/testimonial/Testimonial";
 import ProjectsSection from "./components/projectsSection/ProjectsSection";
 import style from "./App.module.css";
 import avatar from "./assets/avatar.png";
+import project1 from "./assets/project_1.png";
+import project2 from "./assets/project_2.png";
 
 function App() {
   return (
     <div className={style.App}>
-      <Header />
+      <Header title={"Meu Portfólio"} />
+
       <ProfileCard
         picture={avatar}
         pictureName={"foto de perfil"}
@@ -39,7 +42,13 @@ function App() {
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique hic amet vel magni! Earum, et nulla rem inventore quas assumenda repudiandae minus quasi deleniti eveniet eius porro! Molestiae, dignissimos tempore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique hic amet vel magni! Earum, et nulla rem inventore quas assumenda repudiandae minus quasi deleniti eveniet eius porro! Molestiae, dignissimos tempore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique hic amet vel magni! Earum, et nulla rem inventore quas assumenda repudiandae minus quasi deleniti eveniet eius porro! Molestiae, dignissimos tempore?"
         }
       />
-      <ProjectsSection />
+      <ProjectsSection
+        title={"MEUS PROJETOS"}
+        projects={[
+          { projectName: "React Social Feed", projectImage: project1, projectLink: "https://react-social-feed-omega.vercel.app/" },
+          { projectName: "responsive-design", projectImage: project2, projectLink: "https://infnet-responsive-design.vercel.app/" }         
+        ]}
+        />
     </div>
   );
 }

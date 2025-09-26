@@ -1,6 +1,6 @@
 .profileCard {
-    border: 1px solid #ffffff;
-    background-color: #ffffff3f;
+    border: 1px solid var(--border-color);
+    background-color: var(--background-color-cards);
     border-radius: 5rem;
     display: flex;
     align-items: center;
@@ -8,20 +8,8 @@
     width: 100%;
     max-width: 350px;
     padding: 15px;
-}
-
-.profile_imageContainer {
-    width: 80px;
-    height: 80px;
-    border-radius: 5rem;
-}
-
-.profile_imageContainer img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    box-sizing: border-box;
+    box-shadow: var(--cards-shadow);
+    font-family: var(--font-primary);
 }
 
 .profile_infoContainer {
@@ -33,9 +21,26 @@
 
 .profile_name {
     font-size: 1rem;
+    color: var(--title-color-project);
 }
 
 .profile_description {
     font-size: 0.9rem;
     line-height: 1rem;
+    color: var(--text-color-cards);
+}
+
+.profile_imageContainer {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    border-radius: 5rem;
+}
+
+.profile_imageContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }

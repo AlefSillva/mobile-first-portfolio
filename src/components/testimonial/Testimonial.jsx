@@ -5,7 +5,7 @@ export default function Testimonial({ title, text }) {
     <>
       <h3 className={styles.Testimonial_title}>{title}</h3>
       <section className={styles.Testimonial}>
-          <p className={styles.text}>{text}</p>
+          <p className={styles.Testimonial_text}>{text}</p>
       </section>
     </>
   );

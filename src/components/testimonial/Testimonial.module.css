@@ -3,10 +3,11 @@
     align-content: center;
     justify-content: center;
     gap: 30px;
-    border: 1px solid #ffffff;
-    background-color: #ffffff3f;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-cards);
+    box-shadow: var(--cards-shadow);
+    background-color: var(--background-color-cards);
     padding: 25px;
-    border-radius: 3.5rem;
     width: 100%;
     max-width: 350px;
     height: auto;
@@ -14,11 +15,14 @@
 
 .Testimonial_title {
     font-size: var(--fontSize-titles-sections);
+    font-family: var(--font-primary);
+    text-align: center;
+    color: var(--title-color);
 }
 
-.Testimonial .text {
-    font-size: 0.8rem;
-    text-align: center;
+.Testimonial_text {
+    font-size: var(--fontSize-text-cards);
     text-align: justify;
     padding: 5px;
+    color: var(--score-color);
 }

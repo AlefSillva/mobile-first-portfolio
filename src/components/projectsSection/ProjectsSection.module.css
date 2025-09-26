@@ -1,0 +1,13 @@
+.ProjectsSection {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.ProjecsSection_tTitle {
+    font-size: var(--fontSize-titles-sections);
+    font-family: var(--font-primary);
+    color: var(--title-color);
+}

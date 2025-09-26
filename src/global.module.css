@@ -5,11 +5,35 @@
 }
 
 :root {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  --font-primary: ;
+  --font-primary: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
   --fontSize-score: 2.1rem;
-  --fontSize-titles-sections: 0.8rem;
+  --fontSize-titles-sections: 0.7rem;
+  --fontSize-text-cards: 0.9rem;
 
-  --primary-color: #0d6dfdbd;
-  --secondary-color: #6d5dd367;
+  --title-color: #ffffff;
+  --title-color-project: #324A5F;
+  
+  --score-color: #324A5F;
+
+  --text-color-cards: #fff;
+
+  --border-color: #ffffff;
+  --border-radius-cards: 3.5rem;
+
+  
+  --primary-color: #0d6dfd;
+  --secondary-color: #FFEEDD;
+  --third-color: #ea526e;
+
+  --primary-gradient-color: #0d6dfdbd;
+  --secondary-gradient-color: #FFEEDD;
+  --third-gradient-color: #ea526e9f;
+
+  --background-color-cards: #ffffff38;
+
+  --cards-shadow: 0 0px 11px 1px rgba(255, 255, 255, 0.596);
+
+  --destaques-hover-card: 0 0 8px 1px rgb(0, 225, 255);
+
 }
