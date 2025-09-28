@@ -1,3 +1,11 @@
+.ProjectsSection_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
 .ProjectsSection {
     display: flex;
     flex-direction: column;
@@ -6,8 +14,31 @@
     max-width: 350px;
 }
 
-.ProjecsSection_tTitle {
+.ProjectsSection_title {
     font-size: var(--fontSize-titles-sections);
     font-family: var(--font-primary);
     color: var(--title-color);
+}
+
+@media (min-width: 769px) {
+    .ProjectsSection_container {
+        grid-area: projects;
+        align-items: center;
+        max-width: 1200px;
+        height: auto;
+        gap: 15px;
+    }
+
+    .ProjectsSection_title {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .ProjectsSection {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        max-width: 1200px;;
+        height: auto;
+    }
 }

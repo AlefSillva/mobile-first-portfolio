@@ -3,8 +3,8 @@ import styles from './ProjectsSection.module.css';
 
 export default function ProjectsSection({ title, projects }) {
     return (
-        <>
-            <h3 className={styles.ProjecsSection_tTitle}>{title}</h3>
+        <div className={styles.ProjectsSection_container}>
+            <h3 className={styles.ProjectsSection_title}>{title}</h3>
             <section className={styles.ProjectsSection}>
                 {projects.map((project, i) => (
                     <ProjectCard
@@ -15,7 +15,7 @@ export default function ProjectsSection({ title, projects }) {
                     />
                 ))}
             </section>
-        </>
+        </div>
     )
 }
 
