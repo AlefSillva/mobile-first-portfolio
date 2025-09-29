@@ -124,7 +124,7 @@
     }
 
     .profile_name {
-    font-size: 2rem;
-    color: var(--text-color-cards);
-}
+        font-size: 2rem;
+        color: var(--text-color-cards);
+    }
 }
