@@ -1,6 +1,7 @@
 .profileCard {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 15px;
     min-width: 330px;
     width: 100%;
