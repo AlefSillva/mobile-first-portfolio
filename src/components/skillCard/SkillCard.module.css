@@ -46,7 +46,7 @@
     }
 
     .SkillCard_nivel {
-        font-size: var(--fontSize-text-sections);
+        font-size: var(--fontSize-subtitles-cards);
         font-weight: 600;
     }
 }
