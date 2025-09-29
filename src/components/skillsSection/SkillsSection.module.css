@@ -42,6 +42,7 @@
     .SkillsSection {
         max-width: 350px;
         border-radius: 10px;
+        gap: 15px;
     }
 
     .SkillsSection_title {
