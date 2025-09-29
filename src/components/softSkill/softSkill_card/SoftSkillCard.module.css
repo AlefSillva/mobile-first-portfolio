@@ -27,7 +27,7 @@
 }
 
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .SoftSkillCard_Container {
         border-radius: 10px;
         height: 50px;

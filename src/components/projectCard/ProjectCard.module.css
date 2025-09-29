@@ -60,7 +60,7 @@
     transform: scale(1.2);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .ProjectCard {
         border: none;
         border-radius: unset;

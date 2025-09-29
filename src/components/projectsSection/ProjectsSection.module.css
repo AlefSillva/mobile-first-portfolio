@@ -21,7 +21,7 @@
     color: var(--titles-and-texts-color);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .ProjectsSection_container {
         grid-area: projects;
         max-width: 800px;

@@ -34,7 +34,7 @@
     color: var(--text-color-card);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .Testimonial_container {
         grid-area: testimonial;
         max-width: 700px;

@@ -32,7 +32,7 @@
     color: var(--titles-and-texts-color);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .SkillsSection_container {
         grid-area: skills;
         width: 300px;
