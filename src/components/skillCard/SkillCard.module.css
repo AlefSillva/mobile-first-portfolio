@@ -39,7 +39,7 @@
     }
 
     .SkillCard_title {
-        font-size: var(--fontSize-text-sections);
+        font-size: var(--fontSize-subtitles-cards);
     }
 
     .SkillCard_nivel_Container {
