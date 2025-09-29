@@ -52,7 +52,7 @@
 @media (min-width: 1024px) {
     .SkillsSection_container {
         max-width: 400px;
-        height: 200px;
+        height: auto;
         gap: 20px;
     }
 

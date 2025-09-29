@@ -50,3 +50,22 @@
         font-weight: 600;
     }
 }
+
+@media (min-width: 1024px) {
+    .SkillCard {
+        height: 80px;
+        gap: 5px;
+    }
+
+    .SkillCard_title {
+        font-size: var(--fontSize-titles-sections);
+    }
+
+    .SkillCard_nivel_Container {
+        font-size: var(--fontSize-subtitles-cards);
+    }
+
+    .SkillCard_nivel {
+        font-size: var(--fontSize-titles-sections);
+    }
+}
