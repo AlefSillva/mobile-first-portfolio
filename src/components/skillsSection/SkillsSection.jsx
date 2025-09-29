@@ -10,8 +10,7 @@ export default function SkillsSection({ title, skills }) {
           <SkillCard 
             key={i}
             title={skill.title}
-            score={skill.score}
-            maxScore={skill.maxScore}
+            nivel={skill.nivel}
           />
         ))}
       </section>

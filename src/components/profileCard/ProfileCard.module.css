@@ -10,27 +10,23 @@
     border-radius: 5rem;
     box-shadow: var(--cards-shadow);
     background-color: var(--background-color-cards);
-    font-family: var(--font-primary);
-
 }
 
 .profile_infoContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 5px;
     width: calc(100% - 75px - 20px);
 }
 
 .profile_name {
     font-size: 1rem;
-    color: var(--title-color-project);
+    color: var(--text-color-card);
 }
 
 .profile_description {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1rem;
-    color: var(--text-color-cards);
+    color: var(--titles-and-texts-color);
     max-width: 225px;
 }
 

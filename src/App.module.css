@@ -1,5 +1,10 @@
+/* * {
+  outline: red solid 1px;
+} */
+
 .App_container {
   display: flex;
+  align-items: center;
   justify-content: center;
   padding: 20px;
   width: 100%;
@@ -29,23 +34,25 @@
     grid-template-areas:
       "header header"
       "profile skills"
-      "profile skills"
+      "profile softSkills"
       "testimonial testimonial"
       "projects projects";
     gap: 30px;
+    
   }
 }
 
 @media (min-width: 1024px) {
   .App {
     max-width: 1000px;
-    gap: 100px;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "header header"
-      "profile profile"
-      "skills skills"
-      "testimonial testimonial"
+      "profile skills"
+      "testimonial softSkills"
       "projects projects";
+    align-content: center;
+    justify-items: center;
   }
 
   .reveal {
@@ -55,9 +62,7 @@
   }
 
   .profileCard,
-  .SkillsSection,
-  .Testimonial,
-  .ProjectsSection {
+  .Testimonial {
     opacity: 0;
     transform: translateY(50px);
   }

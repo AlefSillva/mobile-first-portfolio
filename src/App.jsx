@@ -1,7 +1,8 @@
 import Header from "./components/header/Header";
-import ProfileCard from "./components/profileCard/ProfileCard";
 import SkillsSection from "./components/skillsSection/SkillsSection";
+import SoftSkillSection from "./components/softSkill/softSkill_section/SoftSkillSection";
 import Testimonial from "./components/testimonial/Testimonial";
+import ProfileCard from "./components/profileCard/ProfileCard";
 import ProjectsSection from "./components/projectsSection/ProjectsSection";
 import style from "./App.module.css";
 import avatar from "./assets/avatar.png";
@@ -20,34 +21,46 @@ function App() {
           description={"Graduando em Análise e Desenvolvimento de Sistemas"}
         />
         <SkillsSection
-          title={"MINHA AUTO AVALIAÇÃO"}
+          title={"SKILLS"}
           skills={[
-            { title: "Flex & Grid Layout", score: 6, maxScore: 10 },
-            { title: "Media Query", score: 6, maxScore: 10 },
-            { title: "Estilização React", score: 6, maxScore: 10 },
-            { title: "Material UI", score: 3, maxScore: 10 },
+            { title: "Mobile-First", nivel: "Acadêmico" },
+            { title: "React", nivel: "Acadêmico" },
+            { title: "HTML", nivel: "Acadêmico" },
+            { title: "JavaScript", nivel: "Acadêmico" },
           ]}
         />
-        <SkillsSection
-          title={"AVALIAÇÃO DO PROFESSOR"}
-          skills={[
-            { title: "Didática", score: 10, maxScore: 10 },
-            { title: "Domínio", score: 10, maxScore: 10 },
+
+        <SoftSkillSection
+          title={"SOFT SKILLS"}
+          softSkills={[
+            {
+              title: "Inglês",
+              description: "B1 - Intermediário",
+            },
           ]}
         />
+
         <Testimonial
-          title={"MEU DEPOIMENTO"}
+          title={"SOBRE MIM"}
           text={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique hic amet vel magni! Earum, et nulla rem inventore quas assumenda repudiandae minus quasi deleniti eveniet eius porro! Molestiae, dignissimos tempore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique hic amet vel magni! Earum, et nulla rem inventore quas assumenda repudiandae minus quasi deleniti eveniet eius porro! Molestiae, dignissimos tempore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique hic amet vel magni! Earum, et nulla rem inventore quas assumenda repudiandae minus quasi deleniti eveniet eius porro! Molestiae, dignissimos tempore?"
+            "Estou em transição de carreira e busco um estágio na área de desenvolvimento de software, onde possa aplicar de forma prática os conhecimentos adquiridos no curso de Análise e Desenvolvimento de Sistemas. Tenho grande interesse em trabalhar em projetos reais, contribuindo desde a concepção até a implementação de soluções, aprimorando minhas habilidades técnicas e minha capacidade de resolver problemas. Sou motivado, comprometido e estou sempre disposto a aprender; além do desenvolvimento de software, estudo inglês de forma autodidata, buscando alcançar uma segunda língua que me proporcione oportunidades internacionais no futuro. Estou constantemente aprimorando meus conhecimentos e pronto para agregar valor à equipe e aos projetos nos quais estiver envolvido."
           }
         />
         <ProjectsSection
           title={"MEUS PROJETOS"}
           projects={[
-            { projectName: "React Social Feed", projectImage: project1, projectLink: "https://react-social-feed-omega.vercel.app/" },
-            { projectName: "Responsive Design", projectImage: project2, projectLink: "https://infnet-responsive-design.vercel.app/" }
+            {
+              projectName: "React Social Feed",
+              projectImage: project1,
+              projectLink: "https://react-social-feed-omega.vercel.app/",
+            },
+            {
+              projectName: "Responsive Design",
+              projectImage: project2,
+              projectLink: "https://infnet-responsive-design.vercel.app/",
+            },
           ]}
-          />
+        />
       </div>
     </div>
   );

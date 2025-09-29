@@ -9,23 +9,22 @@
     border-radius: var(--border-radius-cards);
     background-color: var(--background-color-cards);
     width: 100%;
+    height: auto;
     box-shadow: var(--cards-shadow);
-    color: var(--ttitle-color-project);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.ProjecCard_title {
-    font-size: var(--fontSize-title-cards);
-    font-family: var(--font-primary);
+.ProjectCard_title {
+    font-size: var(--fontSize-text-sections);
     margin: 0;
-    color: var(--title-color-project);
+    color: var(--text-color-card);
 }
 
 .ProjectImageContainer {
     display: flex;
     justify-content: center;
     width: 280px;
-    height: 170px;
+    height: auto;
     border-radius: 1rem;
     perspective: 2000px;
 }
@@ -41,32 +40,23 @@
 
 .ProjectImageContainer img:hover,
 .ProjectImageContainer img:focus {
-    border: 1px solid #ff9100;
     border-radius: 1rem;
     transform: rotateY(-20deg) rotateX(10deg) scale(1.1);
     box-shadow: -10px 15px 20px rgba(32, 32, 32, 0.26);
 }
 
-.ProjectLink {
-    display: flex;
-    justify-content: flex-end;
-    width: 255px;
+.ProjectCard>a {
     padding: 5px;
-}
-
-.ProjectLink a {
     text-decoration: none;
-    font-size: var(--fontSize-text-cards);
+    font-size: var(--fontSize-text-sections);
     font-weight: bold;
-    font-family: var(--font-primary);
-    color: var(--title-color-project);
+    color: var(--text-color-card);
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
 }
 
-.ProjectLink a:hover {
-    color: #fff;
-    text-shadow: 0 0 3px #000000;
+.ProjectCard>a:hover {
+    color: var(--primary-color);
     transform: scale(1.2);
 }
 
@@ -76,41 +66,42 @@
         border-radius: unset;
         background-color: unset;
         box-shadow: unset;
-        display: grid;
-        grid-template-areas:
-            "title"
-            "image"
-            "link";
-        width: 400px;
-        max-width: 500px;
-        height: 300px;
-        justify-items: center;
+        width: 350px;
     }
 
-    .ProjecCard_title{
-        grid-area: title;
+    .ProjecCard_title {
         font-size: 1rem;
-        color: var(--title-color);
+        color: var(--titles-and-texts-color);
     }
 
     .ProjectImageContainer {
-        grid-area: image;
-        width: 350px;
-        height: 300px;
-        max-height: 200px;
+        width: 100%;
+        height: 200px;
     }
 
     .ProjectImageContainer img {
         width: 100%;
         height: 100%;
+    }
 }
 
-    .ProjectLink {
-        grid-area: link;
-        justify-content: center;
+@media (min-width: 1024px) {
+    .ProjectCard {
+        max-width: unset;
+        width: 400px;
+        height: auto;
     }
 
-    .ProjectLink a {
+    .ProjectCard_title {
+        font-size: var(--fontSize-title-cards);
+    }
+
+    .ProjectImageContainer {
+        max-width: 350px;
+        height: 250px;
+    }
+
+    .ProjectCard>a {
         font-size: 1rem;
     }
 }

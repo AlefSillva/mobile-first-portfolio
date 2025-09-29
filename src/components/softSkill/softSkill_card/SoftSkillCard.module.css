@@ -1,0 +1,58 @@
+.SoftSkillCard_Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    color: var(--text-color-card);
+    border: 1px solid white;
+    background-color: var(--background-color-cards);
+    border-radius: 3.5rem;
+    box-shadow: var(--cards-shadow);
+    min-width: 330px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+.SoftSkillCard_title {
+    font-size: var(--fontSize-subtitles-cards);
+    color: var(--titles-and-texts-color);
+}
+
+.description {
+    font-size: var(--fontSize-text-sections);
+    color: var(--fontSize-text-sections);
+    font-weight: 600;
+}
+
+
+@media (min-width: 769px) {
+    .SoftSkillCard_Container {
+        border-radius: 10px;
+        height: 50px;
+    }
+
+    .SoftSkillCard_title {
+        font-size: var(--fontSize-subtitles-cards);
+    }
+
+    .description {
+        font-size: var(--fontSize-text-sections);
+    }
+}
+
+@media (min-width: 1024px) {
+    .SoftSkillCard_Container {
+        max-width: 400px;
+        padding: 30px;
+    }
+
+    .SoftSkillCard_title {
+        font-size: 0.9rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+}

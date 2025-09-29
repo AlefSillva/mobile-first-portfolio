@@ -2,38 +2,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 :root {
-  --font-primary: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
-  --fontSize-score: 2.1rem;
-  --fontSize-titles-sections: 0.7rem;
-  --fontSize-text-cards: 0.9rem;
 
-  --title-color: #ffffff;
-  --title-color-project: #324A5F;
-  
-  --score-color: #324A5F;
+  /* Font size */
+    --fontSize-titles-sections: 0.9rem;
+    --fontSize-subtitles-sections: 0.5rem;
+    --fontSize-subtitles-cards: 0.7rem;
+    --fontSize-text-sections: 0.8rem;
+    --fontSize-testimonial: 0.9rem;
+  /* ---------------------------------- */
 
-  --text-color-cards: #fff;
+  /* Titles and Text Colors */
+    --titles-and-texts-color: #ffffff;
+    --text-color-card: #324A5F;
+  /* ---------------------------------- */
 
-  --border-color: #ffffff;
-  --border-radius-cards: 3.5rem;
+  /* Border */
+    --border-color: #ffffff;
+    --border-radius-cards: 3.5rem;
+  /* ---------------------------------- */
+  /* Main Colors */
+    --primary-color: #0d6dfd;
+    --secondary-color: #FFEEDD;
+    --third-color: #ea526e;
+  /* ---------------------------------- */
 
-  
-  --primary-color: #0d6dfd;
-  --secondary-color: #FFEEDD;
-  --third-color: #ea526e;
+  /* Gradient Colors */
+    --primary-gradient-color: #0d6dfdbd;
+    --secondary-gradient-color: #FFEEDD;
+    --third-gradient-color: #ea526e9f;
+  /* ---------------------------------- */
 
-  --primary-gradient-color: #0d6dfdbd;
-  --secondary-gradient-color: #FFEEDD;
-  --third-gradient-color: #ea526e9f;
-
-  --background-color-cards: #ffffff38;
-
-  --cards-shadow: 0 0px 11px 1px rgba(255, 255, 255, 0.596);
-
-  --destaques-hover-card: 0 0 8px 1px rgb(0, 225, 255);
+  /* Background Colors and Shadows */
+    --background-color-cards: #ffffff38;
+    --cards-shadow: 0 0px 11px 1px rgba(255, 255, 255, 0.596);
+    --destaques-hover-card: 0 0 8px 1px rgb(0, 225, 255);
 
 }
