@@ -14,11 +14,11 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
-    gap: 30px;
+    gap: 10px;
     border: 1px solid var(--border-color);
     background-color: var(--background-color-cards);
     box-shadow: var(--cards-shadow);
-    padding: 25px;
+    padding: 15px;
     border-radius: 3.5rem;
     min-width: 330px;
     width: 100%;
