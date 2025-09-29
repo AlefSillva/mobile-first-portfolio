@@ -38,11 +38,11 @@
     }
 
     .SkillCard_title {
-        font-size: var(--fontSize-subtitles-cards);
+        font-size: var(--fontSize-text-sections);
     }
 
     .SkillCard_nivel_Container {
-        font-size: var(--fontSize-text-sections);
+        font-size: var(--fontSize-subtitles-sections);
     }
 
     .SkillCard_nivel {
