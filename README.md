@@ -8,7 +8,7 @@
 ## 🔗 Link do Projeto
 
 Acesse a versão funcional do projeto aqui:  
-[https://mobile-first-portfolio.vercel.app/](#)
+[Acesse o projeto](https://mobile-first-portfolio.vercel.app/)
 
 ---
 
