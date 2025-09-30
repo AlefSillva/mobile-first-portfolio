@@ -3,7 +3,9 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    min-width: 300px;
     width: 100%;
+    max-width: 400px;
     gap: 10px;
 }
 
@@ -15,8 +17,7 @@
     border-radius: var(--border-radius-cards);
     box-shadow: var(--cards-shadow);
     background-color: var(--background-color-cards);
-    padding: 25px 15px;
-    min-width: 300px;
+    padding: 25px;
     width: 100%;
     height: auto;
 }
