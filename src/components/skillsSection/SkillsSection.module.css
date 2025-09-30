@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     gap: 10px;
     color: var(--titles-and-texts-color);
 }
@@ -35,13 +35,12 @@
 @media (min-width: 768px) {
     .SkillsSection_container {
         grid-area: skills;
-        width: 300px;
+        width: 320px;
         height: auto;
     }
 
     .SkillsSection {
         min-width: unset;
-        max-width: 350px;
         border-radius: 10px;
         gap: 15px;
     }
