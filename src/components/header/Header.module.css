@@ -40,3 +40,15 @@
         box-shadow: unset;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    .Header {
+        background: linear-gradient(
+            90deg, 
+            transparent 0%, 
+            var(--third-gradient-color) 25%, 
+            var(--background-color-main)75%, 
+            transparent 100%
+            );
+    }   
+}
