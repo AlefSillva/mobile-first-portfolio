@@ -14,7 +14,6 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
-    gap: 10px;
     border: 1px solid var(--border-color);
     background-color: var(--background-color-cards);
     box-shadow: var(--cards-shadow);
@@ -22,7 +21,7 @@
     border-radius: 3.5rem;
     min-width: 330px;
     width: 100%;
-    max-width: 410px;
+    max-width: 400px;
     height: auto;
 }
 
@@ -35,7 +34,7 @@
 @media (min-width: 768px) {
     .SkillsSection_container {
         grid-area: skills;
-        width: 320px;
+        width: 330px;
         height: auto;
     }
 
@@ -52,7 +51,6 @@
 
 @media (min-width: 1024px) {
     .SkillsSection_container {
-        /* width: 400px; */
         height: auto;
         gap: 20px;
     }
