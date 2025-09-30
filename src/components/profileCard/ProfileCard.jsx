@@ -21,7 +21,8 @@ export default function ProfileCard({
       <div className={styles.profile_infoContainer}>
         <h2 className={styles.profile_name}>{name}</h2>
         <p className={styles.profile_description}>{description}</p>
-        <div className={styles.profile_socials}>
+      </div>
+      <div className={styles.profile_socials}>
           <div className={styles.profile_linkedin}>
             <a
               href="https://www.linkedin.com/in/alefsilvasantos15/"
@@ -42,7 +43,6 @@ export default function ProfileCard({
             </a>
           </div>
         </div>
-      </div>
     </div>
   );
 }
