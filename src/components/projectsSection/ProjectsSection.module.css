@@ -47,6 +47,7 @@
     .ProjectsSection_container {
         max-width: 1000px;
         justify-content: center;
+        gap: 5px;
     }
 
     .ProjectsSection {
