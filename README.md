@@ -1,16 +1,58 @@
-# React + Vite
+# Meu Portfólio Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Uma aplicação de portfólio desenvolvida em **React**, criada como **assessment da disciplina Mobile-First UI com React** do curso de Análise e Desenvolvimento de Sistemas. Exibe meu perfil, habilidades, projetos e informações sobre mim, com layout **responsivo** e **mobile-first**, incluindo **modo claro e modo dark** que se adapta às preferências do sistema do usuário.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🔗 Link do Projeto
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Acesse a versão funcional do projeto aqui:  
+[https://mobile-first-portfolio.vercel.app/](#)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 Tecnologias Utilizadas
+
+- **React** – Biblioteca para construção da interface.
+- **CSS Modules** – Estilização encapsulada de componentes.
+- **Flexbox & Grid** – Layout responsivo e adaptativo.
+- **Media Queries** – Ajustes de design para mobile, tablet e desktop.
+- **Dark Mode** – Modo escuro baseado na preferência do usuário (`prefers-color-scheme: dark`).
+
+---
+
+## 🧩 Estrutura de Componentes
+
+O projeto está organizado em componentes reutilizáveis:
+
+- `<Header>` – Cabeçalho principal com nome e menu.
+- `<ProfileCard>` – Card com foto, nome e biografia.
+- `<SkillsSection>` – Seção de habilidades, incluindo:
+  - `<SkillCard>` – Card individual de cada habilidade.
+- `<SoftSkillSection>` – Seção de soft skills, incluindo:
+  - `<SoftSkillCard>` – Card individual de cada soft skill.
+- `<Testimonial>` – Seção "Sobre mim" com texto descritivo.
+- `<ProjectsSection>` – Seção de projetos, incluindo:
+  - `<ProjectCard>` – Card individual de cada projeto.
+
+---
+
+## 📱 Responsividade
+
+O layout foi pensado **mobile first** e se adapta a:
+
+- **Celular** – Layout linear, fácil de navegar.
+- **Tablet (≥768px)** – Ajuste de colunas e redimensionamento dos cards.
+- **Desktop (≥1024px)** – Layout em grid com múltiplas colunas e aproveitamento de espaço.
+
+---
+
+## 🎨 Estilo e Personalização
+
+- Paleta de cores própria, tanto para **modo claro** quanto para **modo dark**.  
+- Gradientes personalizados no header e background.  
+- Cards com sombra e hover suave para destaque visual.  
+- Tipografia ajustada para cada componente, mantendo leitura confortável.
+
+---
