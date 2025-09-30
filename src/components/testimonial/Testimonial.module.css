@@ -63,7 +63,7 @@
 
 @media (min-width: 1024px) {
     .Testimonial_container {
-        max-width: 800px;
+        width: 600px;
         margin: 70px 0px;
         gap: 0px;
         opacity: 0;
