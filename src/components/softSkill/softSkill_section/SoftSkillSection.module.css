@@ -31,14 +31,15 @@
         grid-area: softSkills;
         width: 300px;
     }
-
+    
     .SoftSkillSection {
-        min-width: unset;
         border-radius: 10px;
+        max-width: 100%;
     }
 
     .SkillsSection_title {
         font-size: var(--fontSize-titles-sections);
+        text-align: center;
     }
 }
 

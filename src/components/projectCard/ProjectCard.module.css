@@ -3,12 +3,13 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding: 16px;
+    padding: 10px;
     text-align: center;
     border: 1px solid #fff;
     border-radius: var(--border-radius-cards);
     background-color: var(--background-color-cards);
     width: 100%;
+    max-width: 400px;
     height: auto;
     box-shadow: var(--cards-shadow);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -24,7 +25,7 @@
     display: flex;
     justify-content: center;
     width: 280px;
-    height: auto;
+    height: 180px;
     border-radius: 1rem;
     perspective: 2000px;
 }
