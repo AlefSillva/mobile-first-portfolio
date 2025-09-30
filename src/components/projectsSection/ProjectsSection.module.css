@@ -47,7 +47,7 @@
     .ProjectsSection_container {
         max-width: 1000px;
         justify-content: center;
-        gap: 5px;
+        margin-top: 70px;
     }
 
     .ProjectsSection {
@@ -58,6 +58,6 @@
     }
 
     .ProjectsSection_title {
-        font-size: var(--fontSize-titles-sections);
+        font-size: 1.1rem;
     }
 }
