@@ -1,6 +1,6 @@
 import styles from "./ProjectCard.module.css";
 
-export default function ProjectCard({ projectName, projectImage, projectLink }) {
+export default function ProjectCard({ projectName, projectImage, projectLink, nameLink }) {
   return (
     <div className={styles.ProjectCard}>
       <h3 className={styles.ProjectCard_title}>{projectName}</h3>
@@ -12,7 +12,7 @@ export default function ProjectCard({ projectName, projectImage, projectLink }) 
           href={projectLink}
           target="_blank"
           rel="noopener noreferrer">
-            acessar
+            {nameLink}
         </a>
     </div>
   );

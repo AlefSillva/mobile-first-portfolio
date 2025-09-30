@@ -42,3 +42,31 @@
     --destaques-hover-card: 0 0 8px 1px rgb(0, 225, 255);
 
 }
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    
+    /* Textos */
+    --titles-and-texts-color: #EAEAEA;
+    --text-color-card: #CFCFCF;
+
+    /* Cores principais */
+    --primary-color: #200329;   
+    --secondary-color: #2B1D1D; 
+    --third-color: #7a6bff;     
+
+    /* Gradientes */
+    --primary-gradient-color: #380457;
+    --secondary-gradient-color: #1a1a40;
+    --third-gradient-color: #4b0d12;
+
+    /* Background geral */
+    --background-color-main: #0E141B;  
+    --background-color-cards: #1E1E1E;
+
+    /* Sombras e hover */
+    --cards-shadow: 0 0 12px rgba(0,0,0,0.6);
+    --destaques-hover-card: 0 0 12px 2px rgba(255, 59, 69, 0.7); 
+  }
+}

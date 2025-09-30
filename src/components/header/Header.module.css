@@ -19,7 +19,7 @@
 @media (min-width: 768px) {
     .Header {
         grid-area: header;
-        width: 97%;
+        max-width: 95%;
         height: 100px;
         text-align: center;
     }

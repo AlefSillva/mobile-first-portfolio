@@ -106,3 +106,9 @@
         font-size: 1rem;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    .ProjectCard>a:hover  {
+        color: var(--third-color);
+    }
+}

@@ -12,6 +12,7 @@ export default function ProjectsSection({ title, projects }) {
                         projectName={project.projectName}
                         projectImage={project.projectImage}
                         projectLink={project.projectLink}
+                        nameLink={project.nameLink}
                     />
                 ))}
             </section>

@@ -58,11 +58,13 @@ function App() {
               projectName: "React Social Feed",
               projectImage: project1,
               projectLink: "https://react-social-feed-omega.vercel.app/",
+              nameLink: "Ver projeto"
             },
             {
               projectName: "Responsive Design",
               projectImage: project2,
               projectLink: "https://infnet-responsive-design.vercel.app/",
+              nameLink: "Ver projeto"
             },
           ]}
         />
