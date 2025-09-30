@@ -1,4 +1,4 @@
-# Meu Portfólio Pessoal
+# Portfólio mobile-first
 
 > Uma aplicação de portfólio desenvolvida em **React**, criada como **assessment da disciplina Mobile-First UI com React** do curso de Análise e Desenvolvimento de Sistemas. Exibe meu perfil, habilidades, projetos e informações sobre mim, com layout **responsivo** e **mobile-first**, incluindo **modo claro e modo dark** que se adapta às preferências do sistema do usuário.
 
